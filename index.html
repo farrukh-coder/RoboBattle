@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="description" content="Робобитва. Играть один на один. Робобитва онлайн. Играть робобитву. Онлайн игры. Онлайн один на один игры. Мечи онлайн.">
+    <meta name="keywords" content="робобитва, играть один на один, робобитва онлайн, играть робобитву, онлайн игры, онлайн один на один игры, мечи онлайн, игры">
+    <title>РобоБитва</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="modal-register">
+        <div class="inside">
+            <h2>Регистрация</h2>
+            <div class="user-name">
+                <p>Введите имя <i>первого</i> пользователя:</p>
+                <input type="text" class="first-user-name" placeholder="Имя...">
+            </div>
+            <div class="user-name">
+                <p>Введите имя <i>второго</i> пользователя:</p>
+                <input type="text" class="second-user-name" placeholder="Имя...">
+            </div>
+            <button class="start">Начать</button>
+            <div class="info">
+                <p>У первого пользователя 100 <img src="img/heart.png" width="16" alt="hp">, и максимальный урон 10 <img
+                        src="img/sword.png" width="16" alt="урон"></p>
+                <p>У второго пользователя 200 <img src="img/heart.png" width="16" alt="hp">, и максимальный урон 5 <img
+                        src="img/sword.png" width="16" alt="урон"></p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Робо Битва</h1>
+    </header>
+    <section class="content">
+        <div class="user-block first-block active">
+            <div class="characteristic">
+                <h2 class="user-one">Пользователь 1</h2>
+                <p>Максимальное здоровье: <span class="first-max-hp"></span> <img src="img/heart.png" width="18"
+                        alt="hp"> </p>
+                <p>Максимальный урон: <span class="first-max-power"></span> <img src="img/sword.png" width="18"
+                        alt="урон"> </p>
+            </div>
+            <div class="statistics">
+                <p>Оставшееся здоровье: <span class="first-hp">100</span> <img src="img/heart.png" width="18" alt="hp">
+                </p>
+                <p>Нанесённый урон: <span class="first-power">-</span> <img src="img/sword.png" width="18" alt="урон">
+                </p>
+            </div>
+            <div class="btn-block">
+                <button class="btn-style first-btn">Бить</button>
+            </div>
+        </div>
+        <div class="user-block second-block">
+            <div class="characteristic">
+                <h2 class="user-two">Пользователь 2 </h2>
+                <p>Максимальное здоровье: <span class="second-max-hp"></span> <img src="img/heart.png" width="18"
+                        alt="hp"> </p>
+                <p>Максимальный урон: <span class="second-max-power"></span> <img src="img/sword.png" width="18"
+                        alt="урон"> </p>
+            </div>
+            <div class="statistics">
+                <p>Оставшееся здоровье: <span class="second-hp">200</span> <img src="img/heart.png" width="18" alt="hp">
+                </p>
+                <p>Нанесённый урон: <span class="second-power">-</span> <img src="img/sword.png" width="18" alt="урон">
+                </p>
+            </div>
+            <div class="btn-block">
+                <button class="btn-style second-btn disabled-btn">Бить</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Все права защищены!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

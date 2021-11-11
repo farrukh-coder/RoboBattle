@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://sharp-feynman-fe73ef.netlify.app/
